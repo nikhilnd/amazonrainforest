@@ -1,0 +1,23 @@
+{
+  "name": "Amazon-Rain-Forest",
+  "version": "1.0",
+  "homepage": "https://github.com/nikhilnd/amazonrainforest",
+  "authors": [
+    "Nikhil <nikhil.deorkar@gmail.com>"
+  ],
+  "description": "Simple website about the Amazon Rain Forest",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize": "~1.0.4",
+    "jquery.localScroll": "~1.4.0"
+  }
+}

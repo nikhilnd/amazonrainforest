@@ -1,0 +1,383 @@
+/*************************
+HEADER
+*************************/
+header {
+  height: 450px;
+  background: url('http://www.jod.uk.com/media/291591/amazon-rainforest-hero.jpg?width=1280') center center;
+  background-size: cover;
+}
+
+nav {
+  text-align: right;
+  padding: 30px 30px 0 0;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 100px;
+}
+
+header h1 span {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: white solid 10px;
+}
+
+.kicker {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  margin: 0 0 20px 0;
+  line-height: 1.3;
+}
+
+/*************************
+LOCATION
+*************************/
+#location {
+  height: 500px;
+  background: #F0F0F0;
+  padding: 15px;
+}
+
+.location-title {
+  text-align: center;
+  color: #e1c285;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.location-text {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0;
+}
+
+.location-img-container {
+  text-align: center;
+}
+
+.location-img {
+  height: 350px;
+  width: 350px;
+  display: inline-block;
+}
+
+/*************************
+FACTS
+*************************/
+
+#facts {
+  height: 550px;
+  background-color: #e5eaee;
+  padding: 15px;
+}
+
+.facts-title {
+  text-align: center;
+  color: #e1c285;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.climate, .precip {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+
+.climate h2, .precip h2 {
+  text-align: center;
+  color: #e1c285;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0;
+}
+
+.climate-desciption, .precip-description {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fun-facts {
+  list-style-type: none;
+  width: 70%;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.3;
+}
+
+.fun-facts li {
+  margin: 15px;
+}
+
+/*************************
+PLANTS
+*************************/
+
+#plants {
+  height: 800px;
+  background-color: #F0F0F0;
+  padding: 15px;
+}
+
+.plants-title {
+  text-align: center;
+  color: #e1c285;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.plants-gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 6%;
+}
+
+.plants-gallery li {
+  float: left;
+  width: 28.3333%;
+  margin: 2.5%;
+  color: #bdc3c7;
+}
+
+.plants-gallery li a {
+  text-decoration: none;
+}
+
+.plants-gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 16px;
+  color: #e1c285;
+}
+
+.plants-gallery li a img {
+  width: 250px;
+  height: 250px;
+}
+
+/*************************
+ANIMALS
+*************************/
+
+#animals {
+  height: 800px;
+  background-color: #e5eaee;
+  padding: 15px;
+}
+
+.animals-title {
+  text-align: center;
+  color: #e1c285;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.animals-gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 6%;
+}
+
+.animals-gallery li {
+  float: left;
+  width: 28.3333%;
+  margin: 2.5%;
+  color: #bdc3c7;
+}
+
+.animals-gallery li a {
+  text-decoration: none;
+}
+
+.animals-gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 16px;
+  color: #e1c285;
+}
+
+.animals-gallery li a img {
+  width: 250px;
+  height: 250px;
+}
+
+/*************************
+HUMAN IMPACT
+*************************/
+
+#human-impact {
+  height: 550px;
+  background-color: #F0F0F0;
+  padding: 15px;
+}
+
+.human-impact-div {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.human-impact-title {
+  text-align: center;
+  color: #e1c285;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.human-impact-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.human-impact-img {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left:50%;
+  margin-left:-150px;
+}
+
+/*************************
+MEDIA QUERIES
+*************************/
+
+@media (max-width: 1100px) {
+
+  #facts {
+    height: 700px;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  #facts {
+    height: 1100px;
+  }
+
+  .climate, .precip {
+    width: 95%;
+    margin: 2.5%;
+  }
+
+  #plants {
+    height: 1100px;
+  }
+
+  .plants-gallery li {
+    width: 45%;
+    margin: 2.5%;
+  }
+
+  #animals {
+    height: 1100px;
+  }
+
+  .animals-gallery li {
+    width: 45%;
+    margin: 2.5%;
+  }
+
+  #human-impact {
+    height: 775px;
+  }
+
+  .human-impact-text {
+    font-size: 16px;
+  }
+
+  .human-impact-image {
+    height: 100px;
+    width: 200px;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  nav {
+    float: none;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 5px;
+  }
+
+  .fun-facts {
+    width: 90%;
+  }
+
+  #plants {
+    height: 1850px;
+  }
+
+  .plants-gallery {
+    /*position: absolute;
+    left: 15%;*/
+    text-align: center;
+  }
+
+  .plants-gallery li {
+    width: 95%;
+    margin: 2.5%;
+  }
+
+  #animals {
+    height: 1800px;
+  }
+
+  .animals-gallery {
+    /*position: absolute;
+    left: 15%;*/
+    text-align: center;
+  }
+
+  .animals-gallery li {
+    width: 95%;
+    margin: 2.5%;
+  }
+
+}
