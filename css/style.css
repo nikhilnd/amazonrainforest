@@ -3,7 +3,7 @@ HEADER
 *************************/
 header {
   height: 450px;
-  background: url('http://www.jod.uk.com/media/291591/amazon-rainforest-hero.jpg?width=1280') center center;
+  background: url('../img/amazon-rainforest.jpg') center center;
   background-size: cover;
 }
 
